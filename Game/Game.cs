@@ -88,8 +88,6 @@ struct Game
 
     public static void Main()
     {
-        Console.SetWindowSize(FrameBuffer.Width, FrameBuffer.Height);
-        Console.SetBufferSize(FrameBuffer.Width, FrameBuffer.Height);
         Console.Title = "See Sharp Snake";
         Console.CursorVisible = false;
 
